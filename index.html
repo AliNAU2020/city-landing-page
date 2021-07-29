@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>City Landing Page</title>
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">City</h2>
+            <div class="toggle"></div>
+        </header>
+
+        <video src="pexels-cityxcape-5868771.mp4" muted loop autoplay></video>
+
+        <div class="overlay"></div>
+
+        <div class="text">
+            <h2>Never Stop</h2>
+            <h3>Exploring the Cities</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Fugit cum perferendis odio beatae quidem dolorem! Facere obcaecati optio neque molestiae 
+                aut delectus repudiandae ullam placeat fugiat tenetur commodi rerum nesciunt alias ipsa 
+                repellat vero, nisi animi quaerat sed porro nihil, enim quae illum. Maiores, sed cumque 
+                aliquid tenetur commodi eveniet harum tempora vitae, aperiam nisi at temporibus velit! Fugit
+                ignissimos sit consequatur corrupti est, similique doloribus a hic molestiae odit autem 
+                ratione exercitationem alias maxime amet explicabo recusandae perferendis sunt deserunt. 
+                Vel, sint sit, tempore repellendus voluptas nobis cum aspernatur ex molestiae dolorem quaerat
+                magni expedita incidunt. Quos, sit!</p>
+                <a href="#">Explore</a>
+        </div>
+        
+
+        <ul class="social">
+            <li><a href="#"></a><img src="facebookicon (2).png" alt=""></li>
+            <li><a href="#"></a><img src="twittericon (2).png" alt=""></li>
+            <li><a href="#"></a><img src="instagramicon.png" alt=""></li>
+        </ul>
+    </section>
+    <div class="menu">
+        <ul>
+        <li><a href="#">Home</a></li>
+        <br>
+        <li><a href="#">News</a></li>
+        <br>
+        <li><a href="#">Places to Check Out</a></li>
+        <br>
+        <li><a href="#">Events</a></li>
+        <br>
+        <li><a href="#">Restaurants</a></li>
+        <br>
+        <li><a href="#">Hotels</a></li>
+        <br>
+        <li><a href="#">Blog</a></li>
+        <br>
+        <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+
+    <script>
+         const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+    </script>
+</body>
+</html>
